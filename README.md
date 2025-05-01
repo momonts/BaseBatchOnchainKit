@@ -107,8 +107,6 @@ Replace the contract address in `<NFTMintCard>` with your own contract address f
 0xed2f34043387783b2727ff2799a46ce3ae1a34d2
 ```
 
-Remove the `tokenId="2"` property if it exists.
-
 ---
 
 ### 7. Add `"use client"` to the Top of `page.tsx`
@@ -136,7 +134,10 @@ import {
 
 export default function Page() {
   return (
-    <NFTMintCard contractAddress="0x5E460559B2d57373a5D03CC096FaFFd021CE39F7">
+    <NFTMintCard
+      contractAddress="0xed2f34043387783b2727ff2799a46ce3ae1a34d2"
+      tokenId="2"
+    >
       <NFTCreator />
       <NFTMedia />
       <NFTCollectionTitle />
@@ -161,3 +162,11 @@ npm run dev
 ## ✅ You're all set!
 
 Visit `http://localhost:3000` to view your minting dApp in action.
+
+## If the NFT Minting Card is not showing properly:
+
+Kindly double check your client API
+
+```.env
+NEXT_PUBLIC_ONCHAINKIT_API_KEY=YOUR_CLIENT_API_HERE
+```
