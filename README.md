@@ -30,13 +30,13 @@ This guide will help you set up a basic minting dApp using TypeScript and [Oncha
 
 ## VS Code Extensions (Optional)
 
-- **Solidity**: For Solidity language support in VS Code.
-- **Solidity Inspector**: For code inspection and syntax highlighting.
-- **ESLint**: For identifying and reporting on patterns found in JavaScript and TypeScript code.
-- **GitHub Copilot**: AI-powered code completion tool.
-- **GitLens**: For enhanced Git capabilities within VS Code.
-- **Path Intellisense**: Auto-completion for file paths in VS Code.
-- **Prettier**: For code formatting and styling.
+- [Solidity](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity): For Solidity language support in VS Code.
+- [Solidity Inspector](https://marketplace.visualstudio.com/items?itemName=PraneshASP.vscode-solidity-inspector&fbclid=IwAR06u7pxaz64pHVdIi4EJxpurHagspg2sEjHusrTDdlkoYC38iKMiRqhgH0): For code inspection and syntax highlighting.
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): For identifying and reporting on patterns found in JavaScript and TypeScript code.
+- [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot): AI-powered code completion tool.
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): For enhanced Git capabilities within VS Code.
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): Auto-completion for file paths in VS Code.
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): For code formatting and styling.
 
 ### Setting Up
 
