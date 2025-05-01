@@ -4,6 +4,55 @@ This guide will help you set up a basic minting dApp using TypeScript and [Oncha
 
 ---
 
+# Project Setup
+
+## Accounts & Tooling
+
+- **Github**: Ensure you have a GitHub account for version control and collaboration.
+
+## Wallet
+
+- **Coinbase Wallet**: Use Coinbase Wallet for managing your assets and interacting with dApps.
+
+## Development Setup
+
+### IDE (Preferred: Visual Studio Code)
+
+- Install [Visual Studio Code](https://code.visualstudio.com/).
+
+### Git
+
+- Install [Git](https://git-scm.com/) for version control.
+
+### Node.js
+
+- Install [Node Version Manager (NVM)](https://github.com/nvm-sh/nvm) (for Windows | Mac/Linux) or [Node.js](https://nodejs.org/en/) for managing Node versions.
+
+## VS Code Extensions (Optional)
+
+- **Solidity**: For Solidity language support in VS Code.
+- **Solidity Inspector**: For code inspection and syntax highlighting.
+- **ESLint**: For identifying and reporting on patterns found in JavaScript and TypeScript code.
+- **GitHub Copilot**: AI-powered code completion tool.
+- **GitLens**: For enhanced Git capabilities within VS Code.
+- **Path Intellisense**: Auto-completion for file paths in VS Code.
+- **Prettier**: For code formatting and styling.
+
+### Setting Up
+
+1. Clone the repository:  
+   `git clone <repository-url>`
+
+2. Install dependencies:  
+   `npm install` or `yarn install`
+
+3. Start development server:  
+   `npm start` or `yarn start`
+
+For additional setup instructions, please refer to the project's documentation.
+
+---
+
 ## 🚀 Getting Started
 
 ### 1. Create a Project
