@@ -165,8 +165,8 @@ Visit `http://localhost:3000` to view your minting dApp in action.
 
 ## If the NFT Minting Card is not showing properly:
 
-Kindly double check your client API
+Kindly double check your client API in your .env file
 
-```env
+```
 NEXT_PUBLIC_ONCHAINKIT_API_KEY=YOUR_CLIENT_API_HERE
 ```
