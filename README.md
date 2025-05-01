@@ -167,6 +167,6 @@ Visit `http://localhost:3000` to view your minting dApp in action.
 
 Kindly double check your client API
 
-```.env
+```env
 NEXT_PUBLIC_ONCHAINKIT_API_KEY=YOUR_CLIENT_API_HERE
 ```
