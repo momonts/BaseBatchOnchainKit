@@ -52,10 +52,10 @@ Follow [this guide](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-c
 
 ### 6. Modify `NFTMintCard`
 
-Replace the contract address in `<NFTMintCard>` with:
+Replace the contract address in `<NFTMintCard>` with your own contract address from [your created NFT](https://wallet.coinbase.com/assets/nft) or use this contract address as a sample:
 
 ```text
-0x5E460559B2d57373a5D03CC096FaFFd021CE39F7
+0xed2f34043387783b2727ff2799a46ce3ae1a34d2
 ```
 
 Remove the `tokenId="2"` property if it exists.
